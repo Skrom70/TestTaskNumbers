@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-
+// some comment
 struct SplashView: View {
 	@ObservedResults(ItemGroup.self) var itemGroups
 	
