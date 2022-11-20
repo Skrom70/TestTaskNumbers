@@ -40,7 +40,7 @@ class ContentViewModel: ObservableObject {
 			.sink(receiveCompletion: { completion in
 				print(completion)
 			}, receiveValue: { [unowned self] numFact in
-				$itemGroup.items.insert(numFact)
+//				$itemGroup.items.insert(numFact)
 			})
 			.store(in: &cancellables)
 	}
